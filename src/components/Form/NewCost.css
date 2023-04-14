@@ -1,0 +1,43 @@
+.new-cost {
+  background-color: #e6d785;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 70rem;
+  max-width: 95%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.25);
+  font-size: 100%;
+}
+
+.new-cost button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 2px solid #e6ecf1;
+  background-color: #4f6ec2;
+  color: #fefae1;
+  border-radius: 10px;
+  margin-right: 3px;
+}
+
+.new-cost button:hover,
+.new-cost button:active {
+  background-color: #2a5c84b2;
+  border-color: #2a5c84b2;
+}
+@media (max-width: 531px) {
+  .new-cost button {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 13px 17px 13px 17px;
+  }
+}
+
+@media (max-width: 430px) {
+  .new-cost button {
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 12px;
+  }
+}
